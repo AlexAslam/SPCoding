@@ -4,7 +4,8 @@
 ruby 2.7.3p183
 
 # using the applicaiton
-do 'ruby parser.rb webserver.log' or you can have your own log file. make sure to be in the app directory and place your log file into the same directory.
+do 'ruby parser.rb webserver.log' or you can have your own log file.<br />
+make sure to be in the app directory and place your log file into the same directory.
 
 # log file format
 /help_page/1 126.318.035.038 <br />
@@ -12,7 +13,7 @@ do 'ruby parser.rb webserver.log' or you can have your own log file. make sure t
 /home 184.123.665.067 <br />
 
 # output
-➜  ruby parser.rb webserver.log
+➜  ruby parser.rb webserver.log<br />
 views: <br />
 /help_page/1 80 views <br />
 /contact 89 views <br />
